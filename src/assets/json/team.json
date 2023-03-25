@@ -1,0 +1,91 @@
+[
+    {
+        "id": "1",
+        "team_name": "Chennai Super Kings",
+        "logo": "assets/images/csk.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "trophy": "2010,2011,2018,2021"
+    },
+    {
+        "id": "2",
+        "team_name": "Delhi Capitals",
+        "logo": "assets/images/delhi-capital.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "coach": "Stephen Fleming",
+        "trophy": ""
+    },
+    {
+        "id": "3",
+        "team_name": "Gujrat Titan",
+        "logo": "assets/images/gujrat-titan.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "coach": "Stephen Fleming",
+        "trophy": "2022"
+    },
+    {
+        "id": "4",
+        "team_name": "Kolkata Knight Riders",
+        "logo": "assets/images/kkr.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "coach": "Stephen Fleming",
+        "trophy": "2012,2014"
+    },
+    {
+        "id": "5",
+        "team_name": "Lucknow Super Giants",
+        "logo": "assets/images/csk.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "coach": "Stephen Fleming",
+        "trophy": ""
+    },
+    {
+        "id": "6",
+        "team_name": "Mumbai Indians",
+        "logo": "assets/images/mumbai-indians.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "coach": "Stephen Fleming",
+        "trophy": "2013,2015,2017,2019,2020"
+    },
+    {
+        "id": "7",
+        "team_name": "Panjab Kings",
+        "logo": "assets/images/panjab-kings.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "coach": "Stephen Fleming",
+        "trophy": ""
+    },
+    {
+    "id": "8",
+    "team_name": "Rajasthan Royals",
+    "logo": "assets/images/rajostan-royals.png",
+    "venue": "M. A. Chidambaram Stadium",
+    "owner": "Chennai Super Kings Ltd.",
+    "coach": "Stephen Fleming",
+    "trophy": "2008"
+    },
+    {
+        "id": "9",
+        "team_name": "Royal Challengers Bangalore",
+        "logo": "assets/images/rcb.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "coach": "Stephen Fleming",
+        "trophy": ""
+    },
+    {
+        "id": "10",
+        "team_name": "Sunrise Hyderabad",
+        "logo": "assets/images/sunrise-hayderbad.png",
+        "venue": "M. A. Chidambaram Stadium",
+        "owner": "Chennai Super Kings Ltd.",
+        "coach": "Stephen Fleming",
+        "trophy": "2016"
+    }
+]

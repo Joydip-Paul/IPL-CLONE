@@ -1,0 +1,34 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.team {
+    &__each {
+        background: linear-gradient(180deg, #FCCA06 0%, #F25C19 100%);
+        border: 2px solid #F25C19;
+        height: 100%;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        figure {
+            height: 100px;
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2{
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        p {
+            font-size: 1em;
+            color: #fff;
+        }
+        .tropy {
+            font-size: 1em;
+            background-color: #fff;
+            border-radius: 25px;
+            padding: 6px;
+        }
+    }
+}
