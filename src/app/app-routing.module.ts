@@ -4,7 +4,7 @@ import { TeamsComponent } from './pages/teams/teams.component';
 
 const routes: Routes = [
   { path: '', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
-  {path:'team', component: TeamsComponent},
+  {path:'teams/men', component: TeamsComponent},
 ];
 
 @NgModule({

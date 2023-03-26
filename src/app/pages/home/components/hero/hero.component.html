@@ -1,1 +1,50 @@
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo similique repellendus eius, fugiat necessitatibus a temporibus optio facilis deleniti, laborum repellat eos laudantium illum officia ex unde doloremque voluptates? Cum.</p>
+<div class="hero">
+    <div class="row g-2">
+        <div class="col-md-8">
+            <div class="hero__slider">
+                <figure>
+                    <img src="assets/images/home-hero-banner.webp" alt="">
+                </figure>
+                <div class="contents">
+                  <div class="container">
+                    <h4>Article</h4>
+                    <h1>Michael Bracewell Joins Royal Challengers Bangalore As A Replacement For Will Jacks</h1>
+                    <p>15 Feb 2023</p>
+                  </div>
+                </div>
+                <div class="controls">
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="container">
+                <div class="standings">
+                    <div class="standings__header">
+                        <h3>Standings</h3>
+                    </div>
+                    <div class="standings__body">
+                        <div class="standings__body--title">
+                            <h4>TEAM</h4>
+                            <h4>PLD</h4>
+                            <h4>NET RR</h4>
+                            <h4>PTS</h4>
+                        </div>
+                        <div class="standings__body--each" *ngFor="let item of standing">
+                            <h4><img src={{item.logo}} alt=""> {{item.team}}</h4>
+                            <h4>{{item.pld}}</h4>
+                            <h4>{{item.net__rr}}</h4>
+                            <h4>{{item.pts}}</h4>
+                        </div>
+                    </div>
+                    <div class="standings__footer">
+                        <button>Tweet</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

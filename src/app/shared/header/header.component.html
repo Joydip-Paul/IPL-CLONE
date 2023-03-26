@@ -1,0 +1,89 @@
+<nav class="navbar navbar-expand-lg" (scroll)="onscroll()" [ngClass]="navbarFixed? 'fixed':'fixed-top'">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/ipl-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="collapse navbar-collapse tata" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/matches"
+                        routerLinkActive="active-list">MATCHES</a>
+                </li>
+                <li class="nav-item" (click)="hideNavBar()">
+                    <a class="nav-link active"
+                        routerLinkActive="active-list">VIDEOS</a>
+                </li>
+                <li class="nav-item" (click)="hideNavBar()">
+                    <a class="nav-link active">STATS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        POINTS TABLE
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li (click)="hideNavBar()">
+                            <a class="dropdown-item">SINGLE BLOG</a>
+                        </li>
+                        <li (click)="hideNavBar()" routerLink = "/blog-details">
+                            <a class="dropdown-item">BLOG DETAILS</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item" (click)="hideNavBar()">
+                    <a class="nav-link active" routerLink="/contact">FANTASY</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        TEAMS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li (click)="hideNavBar()">
+                            <a class="dropdown-item" routerLink="/teams/men">MEN</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        NEWS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li (click)="hideNavBar()">
+                            <a class="dropdown-item" href="#blog">NEWS</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        MORE
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li (click)="hideNavBar()">
+                            <a class="dropdown-item" href="#blog">MORE</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item" (click)="hideNavBar()">
+                    <a class="nav-link active" href="#about"
+                        routerLinkActive="active-list">MATCHES</a>
+                </li>
+                <li class="nav-item" (click)="hideNavBar()">
+                    <a class="nav-link active" href="#service"
+                        routerLinkActive="active-list">VIDEOS</a>
+                </li>
+                </ul>
+        </div>
+    </div>
+</nav>
